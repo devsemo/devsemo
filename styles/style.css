@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #eeebff;
+  max-width: 595px;
+  margin: 0 auto;
+  min-width: 595px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+}
+.container .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 160px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  background: linear-gradient(to right, #4a5aa6, #46266a, #4a5aa6);
+}
+.container .top .name {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+.container .top .spec {
+  color: #cbd5e7;
+  font-size: 10px;
+}
+.container .top .location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.container .top .location p {
+  color: white;
+  font-size: 12px;
+}
+.container .top .profiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.container .top .profiles a {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 80px;
+  height: 25px;
+  gap: 4px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 100px;
+}
+.container .top .profiles a i {
+  font-size: 16px;
+}
+.container .center {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #263238;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  gap: 10px;
+}
+.container .center .cont {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.container .center .cont .title {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+.container .center .cont .elements {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .center .cont .elements .element {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.container .center .cont .elements .element .banner {
+  color: white;
+  font-size: 13px;
+}
+.container .center .cont .elements .element .btns {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.container .center .cont .elements .element .btns button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  color: white;
+  background: #000;
+}
+.container .center .cont .elements .element .info {
+  color: white;
+  font-size: 13px;
+}
+.container .center .cont .time {
+  font-size: 11px;
+  color: white;
+}
+.container .center .cont2 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+}
+.container .center .cont2 .title {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+.container .center .cont2 .elements {
+  width: 465px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.container .center .cont2 .elements .element {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.container .center .cont2 .elements .element:nth-of-type(2) {
+  margin-top: 20px;
+}
+.container .center .cont2 .elements .element .banner {
+  color: white;
+  font-size: 13px;
+}
+.container .center .cont2 .elements .element .btns {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.container .center .cont2 .elements .element .btns button {
+  padding: 5px 10px;
+  background: #000;
+  border-radius: 100px;
+  color: white;
+  font-size: 10px;
+}
+.container .center .cont2 .elements .element .btns button.soft {
+  background: linear-gradient(to bottom right, #62a1d8, #1b588d);
+}
+.container .center .cont2 .elements .element .btns button.hard {
+  background: linear-gradient(to bottom right, #9b62d8, #412164);
+}/*# sourceMappingURL=style.css.map */
